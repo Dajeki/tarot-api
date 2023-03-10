@@ -45,7 +45,7 @@ https://dajeki.github.io/tarot-api/all.json
 GET [https://dajeki.github.io/tarot-api/all.json](https://dajeki.github.io/tarot-api/all.json)
 
 #### Example Response
-```js
+```json5
 HTTP/1.1 200 OK Content-Type: application/json
 
 { 
