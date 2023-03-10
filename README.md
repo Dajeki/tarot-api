@@ -45,7 +45,7 @@ https://dajeki.github.io/tarot-api/all.json
 GET [https://dajeki.github.io/tarot-api/all.json](https://dajeki.github.io/tarot-api/all.json)
 
 #### Example Response
-```json
+```jsonc
 HTTP/1.1 200 OK Content-Type: application/json
 
 { 
@@ -331,11 +331,11 @@ https://dajeki.github.io/tarot-api/card/minor/{symbol}/{cardNumber}.json
 #### Parameters
 | Name | Type | Required | Description | 
 | ---- | ---- | -------- | ----------- | 
-| symbol | string | yes | One of the 4 tarot symbols sword, pentacle, wand, cup | 
+| symbol | string | yes | One of the four tarot symbols sword, pentacle, wand, cup | 
 | cardNumber | number | yes | number of the card in its suit. 1 for ace and 14 for king |
 
 #### Example Request
-GET https://dajeki.github.io/tarot-api/card/sword/11.json
+GET https://dajeki.github.io/tarot-api/card/minor/sword/11.json
 
 #### Example Response
 ```json
