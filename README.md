@@ -45,9 +45,8 @@ https://dajeki.github.io/tarot-api/all.json
 GET [https://dajeki.github.io/tarot-api/all.json](https://dajeki.github.io/tarot-api/all.json)
 
 #### Example Response
-```json5
-HTTP/1.1 200 OK Content-Type: application/json
-
+`HTTP/1.1 200 OK Content-Type: application/json`
+```json
 { 
 	"element": {
 		"fire": {
@@ -164,9 +163,8 @@ https://dajeki.github.io/tarot-api/card/[{arcana}]/all.json
 GET [https://dajeki.github.io/tarot-api/card/all.json](https://dajeki.github.io/tarot-api/card/all.json)
 
 #### Example Response
+`HTTP/1.1 200 OK Content-Type: application/json`
 ```json
-HTTP/1.1 200 OK Content-Type: application/json
-
 { 
 	//...major arcana cards,
 	"The Fool": {
@@ -228,9 +226,8 @@ https://dajeki.github.io/tarot-api/card/{symbol}/all.json
 GET https://dajeki.github.io/tarot-api/card/pentacle/all.json
 
 #### Example Response
+`HTTP/1.1 200 OK Content-Type: application/json`
 ```json
-HTTP/1.1 200 OK Content-Type: application/json
-
 { 
 	"Ace of Pentacles": {
 		"id": 64,
@@ -295,9 +292,8 @@ https://dajeki.github.io/tarot-api/card/major/{cardName}.json
 GET https://dajeki.github.io/tarot-api/card/major/wheel_of_fortune.json
 
 #### Example Response
+`HTTP/1.1 200 OK Content-Type: application/json`
 ```json
-HTTP/1.1 200 OK Content-Type: application/json
-
 { 
 	"id": 10,
 	"upright": "change, cycles, inevitable fate",
@@ -338,9 +334,8 @@ https://dajeki.github.io/tarot-api/card/minor/{symbol}/{cardNumber}.json
 GET https://dajeki.github.io/tarot-api/card/minor/sword/11.json
 
 #### Example Response
+`HTTP/1.1 200 OK Content-Type: application/json`
 ```json
-HTTP/1.1 200 OK Content-Type: application/json
-
 { 
 	"id": 60,
 	"upright": "curiosity, restlessness, mental energy",
@@ -380,9 +375,8 @@ https://dajeki.github.io/tarot-api/card/element/{element}/all.json
 GET https://dajeki.github.io/tarot-api/card/element/fire/all.json
 
 #### Example Response
+`HTTP/1.1 200 OK Content-Type: application/json`
 ```json
-HTTP/1.1 200 OK Content-Type: application/json
-
 { 
 	"The Emperor": {
 		"id": 4,
@@ -448,9 +442,8 @@ https://dajeki.github.io/tarot-api/card/element/{element}/{arcana}.json
 GET https://dajeki.github.io/tarot-api/card/element/fire/major.json
 
 #### Example Response
+`HTTP/1.1 200 OK Content-Type: application/json`
 ```json
-HTTP/1.1 200 OK Content-Type: application/json
-
 { 
 	"The Emperor": {
 		"id": 4,
@@ -516,9 +509,8 @@ https://dajeki.github.io/tarot-api/astrologyModality/all.json
 GET https://dajeki.github.io/tarot-api/astrologyModality/all.json
 
 #### Example Response
+`HTTP/1.1 200 OK Content-Type: application/json`
 ```json
-HTTP/1.1 200 OK Content-Type: application/json
-
 { 
 	"cardinal": {
 		"card": "queen",
@@ -582,9 +574,8 @@ https://dajeki.github.io/tarot-api/astrologyModality/{modality}.json
 GET https://dajeki.github.io/tarot-api/astrologyModality/cardinal.json
 
 #### Example Response
+`HTTP/1.1 200 OK Content-Type: application/json`
 ```json
-HTTP/1.1 200 OK Content-Type: application/json
-
 {
 	"card": "queen",
 	"attribute": "signs that begin seasons",
@@ -639,9 +630,8 @@ https://dajeki.github.io/tarot-api/zodiac/all.json
 GET https://dajeki.github.io/tarot-api/zodiac/all.json
 
 #### Example Response
+`HTTP/1.1 200 OK Content-Type: application/json`
 ```json
-HTTP/1.1 200 OK Content-Type: application/json
-
 {
 	"Cancer": {
 		"element": "water",
@@ -699,9 +689,8 @@ https://dajeki.github.io/tarot-api/zodiac/{sign}.json
 GET https://dajeki.github.io/tarot-api/zodiac/aquarius.json
 
 #### Example Response
+`HTTP/1.1 200 OK Content-Type: application/json`
 ```json
-HTTP/1.1 200 OK Content-Type: application/json
-
 {
 	"element": "air",
 	"nature": "innovation",
@@ -741,9 +730,8 @@ https://dajeki.github.io/tarot-api/element/all.json
 GET https://dajeki.github.io/tarot-api/element/all.json
 
 #### Example Response
+`HTTP/1.1 200 OK Content-Type: application/json`
 ```json
-HTTP/1.1 200 OK Content-Type: application/json
-
 {
 	"fire": {
 		"minor": "Wands",
@@ -802,9 +790,8 @@ https://dajeki.github.io/tarot-api/element/{element}.json
 GET https://dajeki.github.io/tarot-api/element/fire.json
 
 #### Example Response
+`HTTP/1.1 200 OK Content-Type: application/json`
 ```json
-HTTP/1.1 200 OK Content-Type: application/json
-
 {
 	"minor": "Wands",
 	"gender": "masculine",
