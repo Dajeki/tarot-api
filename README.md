@@ -190,7 +190,7 @@ GET [https://dajeki.github.io/tarot-api/card/all.json](https://dajeki.github.io/
 		"upright": "curiosity, restlessness, mental energy",
 		"reversed": "deception, manipulation, all talk",
 		"first_element": "air",
-		"second_element": "earth".
+		"second_element": "earth"
 	},
 }
 ```
