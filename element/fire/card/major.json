@@ -1,0 +1,51 @@
+{
+	"The Emperor": {
+		"id": 4,
+		"upright": "authority, structure, control, fatherhood",
+		"reversed": "tyranny, rigidity, coldness",
+		"first_element": "aether",
+		"second_element": "fire"
+	},
+	"Strength": {
+		"id": 8,
+		"upright": "inner strength, bravery, compassion, focus",
+		"reversed": "self doubt, weakness, insecurity",
+		"first_element": "aether",
+		"second_element": "fire"
+	},
+	"Wheel of Fortune": {
+		"id": 10,
+		"upright": "change, cycles, inevitable fate",
+		"reversed": "no control, clinging to control, bad luck",
+		"first_element": "aether",
+		"second_element": "fire"
+	},
+	"Temperance": {
+		"id": 14,
+		"upright": "middle path, patience, finding meaning",
+		"reversed": "extremes, excess, lack of balance",
+		"first_element": "aether",
+		"second_element": "fire"
+	},
+	"The Tower": {
+		"id": 16,
+		"upright": "sudden upheaval, broken pride, disaster",
+		"reversed": "disaster avoided, delayed disaster, fear of suffering",
+		"first_element": "aether",
+		"second_element": "fire"
+	},
+	"The Sun": {
+		"id": 19,
+		"upright": "joy, success, celebration, positivity",
+		"reversed": "negativity, depression, sadness",
+		"first_element": "aether",
+		"second_element": "fire"
+	},
+	"Judgment": {
+		"id": 20,
+		"upright": "reflection, reckoning, awakening",
+		"reversed": "lack of self awareness, doubt, self loathing",
+		"first_element": "aether",
+		"second_element": "fire"
+	}
+}

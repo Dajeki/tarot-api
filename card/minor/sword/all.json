@@ -1,0 +1,100 @@
+{
+	"Ace of Swords": {
+		"id": 50,
+		"upright": "breakthrough, clarity, sharp mind",
+		"reversed": "confusion, brutality, chaos",
+		"first_element": "air",
+		"second_element": null
+	},
+	"Two of Swords": {
+		"id": 51,
+		"upright": "difficult choices, indecision, stalemate",
+		"reversed": "lesser of two evils, no right choice, confusion",
+		"first_element": "air",
+		"second_element": null
+	},
+	"Three of Swords": {
+		"id": 52,
+		"upright": "heartbreak, suffering, grief",
+		"reversed": "recovery, forgiveness, moving on",
+		"first_element": "air",
+		"second_element": null
+	},
+	"Four of Swords": {
+		"id": 53,
+		"upright": "rest, restoration, contemplation",
+		"reversed": "restlessness, burnout, stress",
+		"first_element": "air",
+		"second_element": null
+	},
+	"Five of Swords": {
+		"id": 54,
+		"upright": "unbridled ambition, win at all costs, sneakiness",
+		"reversed": "lingering resentment, desire to reconcile, forgiveness",
+		"first_element": "air",
+		"second_element": null
+	},
+	"Six of Swords": {
+		"id": 55,
+		"upright": "transition, leaving behind, moving on",
+		"reversed": "emotional baggage, unresolved issues, resisting transition",
+		"first_element": "air",
+		"second_element": null
+	},
+	"Seven of Swords": {
+		"id": 56,
+		"upright": "deception, trickery, tactics and strategy",
+		"reversed": "coming clean, rethinking approach, deception",
+		"first_element": "air",
+		"second_element": null
+	},
+	"Eight of Swords": {
+		"id": 57,
+		"upright": "imprisonment, entrapment, self-victimization",
+		"reversed": "self acceptance, new perspective, freedom",
+		"first_element": "air",
+		"second_element": null
+	},
+	"Nine of Swords": {
+		"id": 58,
+		"upright": "anxiety, hopelessness, trauma",
+		"reversed": "hope, reaching out, despair",
+		"first_element": "air",
+		"second_element": null
+	},
+	"Ten of Swords": {
+		"id": 59,
+		"upright": "failure, collapse, defeat",
+		"reversed": "can't get worse, only upwards, inevitable end",
+		"first_element": "air",
+		"second_element": null
+	},
+	"Page of Swords": {
+		"id": 60,
+		"upright": "curiosity, restlessness, mental energy",
+		"reversed": "deception, manipulation, all talk",
+		"first_element": "air",
+		"second_element": "earth"
+	},
+	"Knight of Swords": {
+		"id": 61,
+		"upright": "action, impulsiveness, defending beliefs",
+		"reversed": "no direction, disregard for consequences, unpredictability",
+		"first_element": "air",
+		"second_element": "fire"
+	},
+	"Queen of Swords": {
+		"id": 62,
+		"upright": "complexity, perceptiveness, clear mindedness",
+		"reversed": "cold hearted, cruel, bitterness",
+		"first_element": "air",
+		"second_element": "water"
+	},
+	"King of Swords": {
+		"id": 63,
+		"upright": "head over heart, discipline, truth",
+		"reversed": "manipulative, cruel, weakness",
+		"first_element": "air",
+		"second_element": "air"
+	}
+}

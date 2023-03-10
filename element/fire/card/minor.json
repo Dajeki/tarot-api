@@ -1,0 +1,121 @@
+{
+	"Knight of Cups": {
+		"id": 47,
+		"upright": "following the heart, idealist, romantic",
+		"reversed": "moodiness, disappointment",
+		"first_element": "water",
+		"second_element": "fire"
+	},
+	"Knight of Swords": {
+		"id": 61,
+		"upright": "action, impulsiveness, defending beliefs",
+		"reversed": "no direction, disregard for consequences, unpredictability",
+		"first_element": "air",
+		"second_element": "fire"
+	},
+	"Knight of Pentacles": {
+		"id": 75,
+		"upright": "efficiency, hard work, responsibility",
+		"reversed": "laziness, obsessiveness, work without reward",
+		"first_element": "earth",
+		"second_element": "fire"
+	},
+	"Ace of Wands": {
+		"id": 22,
+		"upright": "creation, willpower, inspiration, desire",
+		"reversed": "lack of energy, lack of passion, boredom",
+		"first_element": "fire",
+		"second_element": null
+	},
+	"Two of Wands": {
+		"id": 23,
+		"upright": "planning, making decisions, leaving home",
+		"reversed": "fear of change, playing safe, bad planning",
+		"first_element": "fire",
+		"second_element": null
+	},
+	"Three of Wands": {
+		"id": 24,
+		"upright": "looking ahead, expansion, rapid growth",
+		"reversed": "obstacles, delays, frustration",
+		"first_element": "fire",
+		"second_element": null
+	},
+	"Four of Wands": {
+		"id": 25,
+		"upright": "community, home, celebration",
+		"reversed": "lack of support, transience, home conflicts",
+		"first_element": "fire",
+		"second_element": null
+	},
+	"Five of Wands": {
+		"id": 26,
+		"upright": "competition, rivalry, conflict",
+		"reversed": "avoiding conflict, respecting differences",
+		"first_element": "fire",
+		"second_element": null
+	},
+	"Six of Wands": {
+		"id": 27,
+		"upright": "victory, success, public reward",
+		"reversed": "excess pride, lack of recognition, punishment",
+		"first_element": "fire",
+		"second_element": null
+	},
+	"Seven of Wands": {
+		"id": 28,
+		"upright": "perseverance, defensive, maintaining control",
+		"reversed": "give up, destroyed confidence, overwhelmed",
+		"first_element": "fire",
+		"second_element": null
+	},
+	"Eight of Wands": {
+		"id": 29,
+		"upright": "rapid action, movement, quick decisions",
+		"reversed": "panic, waiting, slowdown",
+		"first_element": "fire",
+		"second_element": null
+	},
+	"Nine of Wands": {
+		"id": 30,
+		"upright": "resilience, grit, last stand",
+		"reversed": "exhaustion, fatigue, questioning motivations",
+		"first_element": "fire",
+		"second_element": null
+	},
+	"Ten of Wands": {
+		"id": 31,
+		"upright": "accomplishment, responsibility, burden",
+		"reversed": "inability to delegate, overstressed, burnt out",
+		"first_element": "fire",
+		"second_element": null
+	},
+	"Page of Wands": {
+		"id": 32,
+		"upright": "exploration, excitement, freedom",
+		"reversed": "lack of direction, procrastination, creating conflict",
+		"first_element": "fire",
+		"second_element": "earth"
+	},
+	"Knight of Wands": {
+		"id": 33,
+		"upright": "action, adventure, fearlessness",
+		"reversed": "anger, impulsiveness, recklessness",
+		"first_element": "fire",
+		"second_element": "fire"
+	},
+	"Queen of Wands": {
+		"id": 34,
+		"upright": "courage, determination, joy",
+		"reversed": "selfishness, jealousy, insecurities",
+		"first_element": "fire",
+		"second_element": "water"
+	},
+	"King of Wands": {
+		"id": 35,
+		"upright": "big picture, leader, overcoming challenges",
+		"reversed": "impulsive, overbearing, unachievable expectations",
+		"first_element": "fire",
+		"second_element": "air"
+	}
+}

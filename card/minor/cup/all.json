@@ -1,0 +1,100 @@
+{
+	"Ace of Cups": {
+		"id": 36,
+		"upright": "new feelings, spirituality, intuition",
+		"reversed": "emotional loss, blocked creativity, emptiness",
+		"first_element": "water",
+		"second_element": null
+	},
+	"Two of Cups": {
+		"id": 37,
+		"upright": "unity, partnership, connection",
+		"reversed": "imbalance, broken communication, tension",
+		"first_element": "water",
+		"second_element": null
+	},
+	"Three of Cups": {
+		"id": 38,
+		"upright": "friendship, community, happiness",
+		"reversed": "overindulgence, gossip, isolation",
+		"first_element": "water",
+		"second_element": null
+	},
+	"Four of Cups": {
+		"id": 39,
+		"upright": "apathy, contemplation, disconnectedness",
+		"reversed": "sudden awareness, choosing happiness, acceptance",
+		"first_element": "water",
+		"second_element": null
+	},
+	"Five of Cups": {
+		"id": 40,
+		"upright": "loss, grief, self-pity",
+		"reversed": "acceptance, moving on, finding peace",
+		"first_element": "water",
+		"second_element": null
+	},
+	"Six of Cups": {
+		"id": 41,
+		"upright": "familiarity, happy memories, healing",
+		"reversed": "moving forward, leaving home, independence",
+		"first_element": "water",
+		"second_element": null
+	},
+	"Seven of Cups": {
+		"id": 42,
+		"upright": "searching for purpose, choices, daydreaming",
+		"reversed": "lack of purpose, diversion, confusion",
+		"first_element": "water",
+		"second_element": null
+	},
+	"Eight of Cups": {
+		"id": 43,
+		"upright": "walking away, disillusionment, leaving behind",
+		"reversed": "avoidance, fear of change, fear of loss",
+		"first_element": "water",
+		"second_element": null
+	},
+	"Nine of Cups": {
+		"id": 44,
+		"upright": "satisfaction, emotional stability, luxury",
+		"reversed": "lack of inner joy, smugness, dissatisfaction",
+		"first_element": "water",
+		"second_element": null
+	},
+	"Ten of Cups": {
+		"id": 45,
+		"upright": "inner happiness, fulfillment, dreams coming true",
+		"reversed": "shattered dreams, broken family, domestic disharmony",
+		"first_element": "water",
+		"second_element": null
+	},
+	"Page of Cups": {
+		"id": 46,
+		"upright": "happy surprise, dreamer, sensitivity",
+		"reversed": "emotional immaturity, insecurity, disappointment",
+		"first_element": "water",
+		"second_element": "earth"
+	},
+	"Knight of Cups": {
+		"id": 47,
+		"upright": "following the heart, idealist, romantic",
+		"reversed": "moodiness, disappointment",
+		"first_element": "water",
+		"second_element": "fire"
+	},
+	"Queen of Cups": {
+		"id": 48,
+		"upright": "compassion, calm, comfort",
+		"reversed": "martyrdom, insecurity, dependence",
+		"first_element": "water",
+		"second_element": "water"
+	},
+	"King of Cups": {
+		"id": 49,
+		"upright": "compassion, control, balance",
+		"reversed": "coldness, moodiness, bad advice",
+		"first_element": "water",
+		"second_element": "air"
+	}
+}

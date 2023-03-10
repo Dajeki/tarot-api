@@ -1,0 +1,37 @@
+{
+	"The High Priestess": {
+		"id": 2,
+		"upright": "intuitive, unconscious, inner voice",
+		"reversed": "lack of center, lost inner voice, repressed feelings",
+		"first_element": "aether",
+		"second_element": "water"
+	},
+	"The Chariot": {
+		"id": 7,
+		"upright": "direction, control, willpower",
+		"reversed": "lack of control, lack of direction, aggression",
+		"first_element": "aether",
+		"second_element": "water"
+	},
+	"The Hanged Man": {
+		"id": 12,
+		"upright": "sacrifice, release, martyrdom",
+		"reversed": "stalling, needless sacrifice, fear of sacrifice",
+		"first_element": "aether",
+		"second_element": "water"
+	},
+	"Death": {
+		"id": 13,
+		"upright": "end of cycle, beginnings, change, metamorphosis",
+		"reversed": "fear of change, holding on, stagnation, decay",
+		"first_element": "aether",
+		"second_element": "water"
+	},
+	"The Moon": {
+		"id": 18,
+		"upright": "unconscious, illusions, intuition",
+		"reversed": "confusion, fear, misinterpretation",
+		"first_element": "aether",
+		"second_element": "water"
+	}
+}

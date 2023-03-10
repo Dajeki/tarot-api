@@ -1,0 +1,156 @@
+{
+	"The Fool": {
+		"id": 0,
+		"upright": "innocence, new beginnings, free spirit",
+		"reversed": "recklessness, taken advantage of, inconsideration",
+		"first_element": "aether",
+		"second_element": "air"
+	},
+	"The Magician": {
+		"id": 1,
+		"upright": "willpower, desire, creation, manifestation",
+		"reversed": "trickery, illusions, out of touch",
+		"first_element": "aether",
+		"second_element": "air"
+	},
+	"The High Priestess": {
+		"id": 2,
+		"upright": "intuitive, unconscious, inner voice",
+		"reversed": "lack of center, lost inner voice, repressed feelings",
+		"first_element": "aether",
+		"second_element": "water"
+	},
+	"The Empress": {
+		"id": 3,
+		"upright": "motherhood, fertility, nature",
+		"reversed": "dependence, smothering, emptiness, nosiness",
+		"first_element": "aether",
+		"second_element": "earth"
+	},
+	"The Emperor": {
+		"id": 4,
+		"upright": "authority, structure, control, fatherhood",
+		"reversed": "tyranny, rigidity, coldness",
+		"first_element": "aether",
+		"second_element": "fire"
+	},
+	"The Hierophant": {
+		"id": 5,
+		"upright": "tradition, conformity, morality, ethics",
+		"reversed": "rebellion, subversiveness, new approaches",
+		"first_element": "aether",
+		"second_element": "earth"
+	},
+	"The Lovers": {
+		"id": 6,
+		"upright": "partnerships, duality, union",
+		"reversed": "loss of balance, one-sidedness, disharmony",
+		"first_element": "aether",
+		"second_element": "air"
+	},
+	"The Chariot": {
+		"id": 7,
+		"upright": "direction, control, willpower",
+		"reversed": "lack of control, lack of direction, aggression",
+		"first_element": "aether",
+		"second_element": "water"
+	},
+	"Strength": {
+		"id": 8,
+		"upright": "inner strength, bravery, compassion, focus",
+		"reversed": "self doubt, weakness, insecurity",
+		"first_element": "aether",
+		"second_element": "fire"
+	},
+	"The Hermit": {
+		"id": 9,
+		"upright": "contemplation, search for truth, inner guidance",
+		"reversed": "loneliness, isolation, lost your way",
+		"first_element": "aether",
+		"second_element": "earth"
+	},
+	"Wheel of Fortune": {
+		"id": 10,
+		"upright": "change, cycles, inevitable fate",
+		"reversed": "no control, clinging to control, bad luck",
+		"first_element": "aether",
+		"second_element": "fire"
+	},
+	"Justice": {
+		"id": 11,
+		"upright": "cause and effect, clarity, truth",
+		"reversed": "dishonesty, unaccountability, unfairness",
+		"first_element": "aether",
+		"second_element": "air"
+	},
+	"The Hanged Man": {
+		"id": 12,
+		"upright": "sacrifice, release, martyrdom",
+		"reversed": "stalling, needless sacrifice, fear of sacrifice",
+		"first_element": "aether",
+		"second_element": "water"
+	},
+	"Death": {
+		"id": 13,
+		"upright": "end of cycle, beginnings, change, metamorphosis",
+		"reversed": "fear of change, holding on, stagnation, decay",
+		"first_element": "aether",
+		"second_element": "water"
+	},
+	"Temperance": {
+		"id": 14,
+		"upright": "middle path, patience, finding meaning",
+		"reversed": "extremes, excess, lack of balance",
+		"first_element": "aether",
+		"second_element": "fire"
+	},
+	"The Devil": {
+		"id": 15,
+		"upright": "addiction, materialism, playfulness",
+		"reversed": "freedom, release, restoring control",
+		"first_element": "aether",
+		"second_element": "earth"
+	},
+	"The Tower": {
+		"id": 16,
+		"upright": "sudden upheaval, broken pride, disaster",
+		"reversed": "disaster avoided, delayed disaster, fear of suffering",
+		"first_element": "aether",
+		"second_element": "fire"
+	},
+	"The Star": {
+		"id": 17,
+		"upright": "hope, faith, rejuvenation",
+		"reversed": "faithlessness, discouragement, insecurity",
+		"first_element": "aether",
+		"second_element": "air"
+	},
+	"The Moon": {
+		"id": 18,
+		"upright": "unconscious, illusions, intuition",
+		"reversed": "confusion, fear, misinterpretation",
+		"first_element": "aether",
+		"second_element": "water"
+	},
+	"The Sun": {
+		"id": 19,
+		"upright": "joy, success, celebration, positivity",
+		"reversed": "negativity, depression, sadness",
+		"first_element": "aether",
+		"second_element": "fire"
+	},
+	"Judgment": {
+		"id": 20,
+		"upright": "reflection, reckoning, awakening",
+		"reversed": "lack of self awareness, doubt, self loathing",
+		"first_element": "aether",
+		"second_element": "fire"
+	},
+	"The World": {
+		"id": 21,
+		"upright": "fulfillment, harmony, completion",
+		"reversed": "incompletion, no closure",
+		"first_element": "aether",
+		"second_element": "earth"
+	}
+}

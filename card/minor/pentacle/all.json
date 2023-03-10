@@ -1,0 +1,100 @@
+{
+	"Ace of Pentacles": {
+		"id": 64,
+		"upright": "opportunity, prosperity, new venture",
+		"reversed": "lost opportunity, missed chance, bad investment",
+		"first_element": "earth",
+		"second_element": null
+	},
+	"Two of Pentacles": {
+		"id": 65,
+		"upright": "balancing decisions, priorities, adapting to change",
+		"reversed": "loss of balance, disorganized, overwhelmed",
+		"first_element": "earth",
+		"second_element": null
+	},
+	"Three of Pentacles": {
+		"id": 66,
+		"upright": "teamwork, collaboration, building",
+		"reversed": "lack of teamwork, disorganized, group conflict",
+		"first_element": "earth",
+		"second_element": null
+	},
+	"Four of Pentacles": {
+		"id": 67,
+		"upright": "conservation, frugality, security",
+		"reversed": "greediness, stinginess, possessiveness",
+		"first_element": "earth",
+		"second_element": null
+	},
+	"Five of Pentacles": {
+		"id": 68,
+		"upright": "need, poverty, insecurity",
+		"reversed": "recovery, charity, improvement",
+		"first_element": "earth",
+		"second_element": null
+	},
+	"Six of Pentacles": {
+		"id": 69,
+		"upright": "charity, generosity, sharing",
+		"reversed": "strings attached, stinginess, power and domination",
+		"first_element": "earth",
+		"second_element": null
+	},
+	"Seven of Pentacles": {
+		"id": 70,
+		"upright": "hard work, perseverance, diligence",
+		"reversed": "work without results, distractions, lack of rewards",
+		"first_element": "earth",
+		"second_element": null
+	},
+	"Eight of Pentacles": {
+		"id": 71,
+		"upright": "apprenticeship, passion, high standards",
+		"reversed": "lack of passion, uninspired, no motivation",
+		"first_element": "earth",
+		"second_element": null
+	},
+	"Nine of Pentacles": {
+		"id": 72,
+		"upright": "fruits of labor, rewards, luxury",
+		"reversed": "reckless spending, living beyond means, false success",
+		"first_element": "earth",
+		"second_element": null
+	},
+	"Ten of Pentacles": {
+		"id": 73,
+		"upright": "legacy, culmination, inheritance",
+		"reversed": "fleeting success, lack of stability, lack of resources",
+		"first_element": "earth",
+		"second_element": null
+	},
+	"Page of Pentacles": {
+		"id": 74,
+		"upright": "ambition, desire, diligence",
+		"reversed": "lack of commitment, greediness, laziness",
+		"first_element": "earth",
+		"second_element": "earth"
+	},
+	"Knight of Pentacles": {
+		"id": 75,
+		"upright": "efficiency, hard work, responsibility",
+		"reversed": "laziness, obsessiveness, work without reward",
+		"first_element": "earth",
+		"second_element": "fire"
+	},
+	"Queen of Pentacles": {
+		"id": 76,
+		"upright": "practicality, creature comforts, financial security",
+		"reversed": "self-centeredness, jealousy, smothering",
+		"first_element": "earth",
+		"second_element": "water"
+	},
+	"King of Pentacles": {
+		"id": 77,
+		"upright": "abundance, prosperity, security",
+		"reversed": "greed, indulgence, sensuality",
+		"first_element": "earth",
+		"second_element": "air"
+	}
+}

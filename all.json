@@ -1,0 +1,789 @@
+{
+	"element": {
+		"fire": {
+			"minor": "Wands",
+			"gender": "masculine",
+			"colors": [
+				"red",
+				"orange"
+			],
+			"zodiac": [
+				"Aries",
+				"Leo",
+				"Sagittarius"
+			],
+			"animals": "reptiles, insects, lizards",
+			"expression": "I do",
+			"attribute": "power of vitality",
+			"meaning": "passion, creativity, lifeforce, growth, sexuality, humor, anger, spirituality, energy, motivation"
+		},
+		"earth": {
+			"minor": "Pentacles",
+			"gender": "feminine",
+			"colors": [
+				"green",
+				"brown"
+			],
+			"zodiac": [
+				"Taurus",
+				"Virgo",
+				"Capricorn"
+			],
+			"animals": "land mammals",
+			"expression": "I am",
+			"attribute": "material resources",
+			"meaning": "money, wealth, home, physical goods, health, practical matters, stability, groundedness, solidity"
+		},
+		"air": {
+			"minor": "Swords",
+			"gender": "masculine",
+			"colors": [
+				"white",
+				"yellow"
+			],
+			"zodiac": [
+				"Gemini",
+				"Libra",
+				"Aquarius"
+			],
+			"animals": "winged creatures",
+			"expression": "I think",
+			"attribute": "power of the mind",
+			"meaning": "thought, honesty, communication, clarity, logic, intelligence, discernment, reason, integrity"
+		},
+		"water": {
+			"minor": "Cups",
+			"gender": "feminine",
+			"colors": [
+				"blue",
+				"purple"
+			],
+			"zodiac": [
+				"Cancer",
+				"Scorpio",
+				"Pisces"
+			],
+			"animals": "water creatures",
+			"expression": "I feel",
+			"attribute": "matters of the heart",
+			"meaning": "emotion, love, compassion, feelings, intuition, fluidity, flow, relationships, family"
+		}
+	},
+	"zodiac": {
+		"Cancer": {
+			"element": "water",
+			"nature": "security",
+			"astrologyModality": "cardinal",
+			"rulingBodyModern": "Moon",
+			"rulingBodyTraditional": null
+		},
+		"Scorpio": {
+			"element": "water",
+			"nature": "power",
+			"astrologyModality": "fixed",
+			"rulingBodyModern": "Pluto",
+			"rulingBodyTraditional": "Mars"
+		},
+		"Pisces": {
+			"element": "water",
+			"nature": "connection",
+			"astrologyModality": "mutable",
+			"rulingBodyModern": "Neptune",
+			"rulingBodyTraditional": "Jupiter"
+		},
+		"Gemini": {
+			"element": "air",
+			"nature": "curiosity",
+			"astrologyModality": "mutable",
+			"rulingBodyModern": "Mercury",
+			"rulingBodyTraditional": null
+		},
+		"Libra": {
+			"element": "air",
+			"nature": "harmony",
+			"astrologyModality": "cardinal",
+			"rulingBodyModern": "Venus",
+			"rulingBodyTraditional": null
+		},
+		"Aquarius": {
+			"element": "air",
+			"nature": "innovation",
+			"astrologyModality": "fixed",
+			"rulingBodyModern": "Uranus",
+			"rulingBodyTraditional": "Saturn"
+		},
+		"Aries": {
+			"element": "fire",
+			"nature": "creation",
+			"astrologyModality": "cardinal",
+			"rulingBodyModern": "Mars",
+			"rulingBodyTraditional": null
+		},
+		"Leo": {
+			"element": "fire",
+			"nature": "expression",
+			"astrologyModality": "fixed",
+			"rulingBodyModern": "Sun",
+			"rulingBodyTraditional": null
+		},
+		"Sagittarius": {
+			"element": "fire",
+			"nature": "wisdom",
+			"astrologyModality": "mutable",
+			"rulingBodyModern": "Jupiter",
+			"rulingBodyTraditional": null
+		},
+		"Taurus": {
+			"element": "earth",
+			"nature": "abundance",
+			"astrologyModality": "fixed",
+			"rulingBodyModern": "Venus",
+			"rulingBodyTraditional": null
+		},
+		"Virgo": {
+			"element": "earth",
+			"nature": "analysis",
+			"astrologyModality": "mutable",
+			"rulingBodyModern": "Mercury",
+			"rulingBodyTraditional": null
+		},
+		"Capricorn": {
+			"element": "earth",
+			"nature": "ambition",
+			"astrologyModality": "cardinal",
+			"rulingBodyModern": "Saturn",
+			"rulingBodyTraditional": null
+		}
+	},
+	"courtElementalCorrespondence": {
+		"page": {
+			"element": "earth",
+			"meaning": "inexperience, desires stability"
+		},
+		"knight": {
+			"element": "fire",
+			"meaning": "burning, overwhelming passion"
+		},
+		"queen": {
+			"element": "water",
+			"meaning": "flowing intuition and inner perfection"
+		},
+		"king": {
+			"element": "air",
+			"meaning": "strategic, intellectual communication"
+		}
+	},
+	"astrologyModality": {
+		"cardinal": {
+			"card": "queen",
+			"attribute": "signs that begin seasons",
+			"meaning": "initiators, self-starters, assertive, decisive and sometimes aggressive",
+			"fire": {
+				"zodiac": "Aries",
+				"season": "spring"
+			},
+			"earth": {
+				"zodiac": "Capricorn",
+				"season": "winter"
+			},
+			"air": {
+				"zodiac": "Libra",
+				"season": "fall"
+			},
+			"water": {
+				"zodiac": "Cancer",
+				"season": "summer"
+			}
+		},
+		"fixed": {
+			"card": "knight",
+			"attribute": "signs in middle of seasons",
+			"meaning": "focused, stable, reliable, concentrated, determined and sometimes stubborn",
+			"fire": {
+				"zodiac": "Leo",
+				"season": "summer"
+			},
+			"earth": {
+				"zodiac": "Taurus",
+				"season": "spring"
+			},
+			"air": {
+				"zodiac": "Aquarius",
+				"season": "winter"
+			},
+			"water": {
+				"zodiac": "Scorpio",
+				"season": "fall"
+			}
+		},
+		"mutable": {
+			"card": "king",
+			"attribute": "signs that end seasons",
+			"meaning": "adaptable, flexible, communicative, and sometimes rebellious",
+			"fire": {
+				"zodiac": "Sagittarius",
+				"season": "fall"
+			},
+			"earth": {
+				"zodiac": "Virgo",
+				"season": "summer"
+			},
+			"air": {
+				"zodiac": "Gemini",
+				"season": "spring"
+			},
+			"water": {
+				"zodiac": "Pisces",
+				"season": "winter"
+			}
+		}
+	},
+	"card": {
+		"The Fool": {
+			"id": 0,
+			"upright": "innocence, new beginnings, free spirit",
+			"reversed": "recklessness, taken advantage of, inconsideration",
+			"first_element": "aether",
+			"second_element": "air"
+		},
+		"The Magician": {
+			"id": 1,
+			"upright": "willpower, desire, creation, manifestation",
+			"reversed": "trickery, illusions, out of touch",
+			"first_element": "aether",
+			"second_element": "air"
+		},
+		"The High Priestess": {
+			"id": 2,
+			"upright": "intuitive, unconscious, inner voice",
+			"reversed": "lack of center, lost inner voice, repressed feelings",
+			"first_element": "aether",
+			"second_element": "water"
+		},
+		"The Empress": {
+			"id": 3,
+			"upright": "motherhood, fertility, nature",
+			"reversed": "dependence, smothering, emptiness, nosiness",
+			"first_element": "aether",
+			"second_element": "earth"
+		},
+		"The Emperor": {
+			"id": 4,
+			"upright": "authority, structure, control, fatherhood",
+			"reversed": "tyranny, rigidity, coldness",
+			"first_element": "aether",
+			"second_element": "fire"
+		},
+		"The Hierophant": {
+			"id": 5,
+			"upright": "tradition, conformity, morality, ethics",
+			"reversed": "rebellion, subversiveness, new approaches",
+			"first_element": "aether",
+			"second_element": "earth"
+		},
+		"The Lovers": {
+			"id": 6,
+			"upright": "partnerships, duality, union",
+			"reversed": "loss of balance, one-sidedness, disharmony",
+			"first_element": "aether",
+			"second_element": "air"
+		},
+		"The Chariot": {
+			"id": 7,
+			"upright": "direction, control, willpower",
+			"reversed": "lack of control, lack of direction, aggression",
+			"first_element": "aether",
+			"second_element": "water"
+		},
+		"Strength": {
+			"id": 8,
+			"upright": "inner strength, bravery, compassion, focus",
+			"reversed": "self doubt, weakness, insecurity",
+			"first_element": "aether",
+			"second_element": "fire"
+		},
+		"The Hermit": {
+			"id": 9,
+			"upright": "contemplation, search for truth, inner guidance",
+			"reversed": "loneliness, isolation, lost your way",
+			"first_element": "aether",
+			"second_element": "earth"
+		},
+		"Wheel of Fortune": {
+			"id": 10,
+			"upright": "change, cycles, inevitable fate",
+			"reversed": "no control, clinging to control, bad luck",
+			"first_element": "aether",
+			"second_element": "fire"
+		},
+		"Justice": {
+			"id": 11,
+			"upright": "cause and effect, clarity, truth",
+			"reversed": "dishonesty, unaccountability, unfairness",
+			"first_element": "aether",
+			"second_element": "air"
+		},
+		"The Hanged Man": {
+			"id": 12,
+			"upright": "sacrifice, release, martyrdom",
+			"reversed": "stalling, needless sacrifice, fear of sacrifice",
+			"first_element": "aether",
+			"second_element": "water"
+		},
+		"Death": {
+			"id": 13,
+			"upright": "end of cycle, beginnings, change, metamorphosis",
+			"reversed": "fear of change, holding on, stagnation, decay",
+			"first_element": "aether",
+			"second_element": "water"
+		},
+		"Temperance": {
+			"id": 14,
+			"upright": "middle path, patience, finding meaning",
+			"reversed": "extremes, excess, lack of balance",
+			"first_element": "aether",
+			"second_element": "fire"
+		},
+		"The Devil": {
+			"id": 15,
+			"upright": "addiction, materialism, playfulness",
+			"reversed": "freedom, release, restoring control",
+			"first_element": "aether",
+			"second_element": "earth"
+		},
+		"The Tower": {
+			"id": 16,
+			"upright": "sudden upheaval, broken pride, disaster",
+			"reversed": "disaster avoided, delayed disaster, fear of suffering",
+			"first_element": "aether",
+			"second_element": "fire"
+		},
+		"The Star": {
+			"id": 17,
+			"upright": "hope, faith, rejuvenation",
+			"reversed": "faithlessness, discouragement, insecurity",
+			"first_element": "aether",
+			"second_element": "air"
+		},
+		"The Moon": {
+			"id": 18,
+			"upright": "unconscious, illusions, intuition",
+			"reversed": "confusion, fear, misinterpretation",
+			"first_element": "aether",
+			"second_element": "water"
+		},
+		"The Sun": {
+			"id": 19,
+			"upright": "joy, success, celebration, positivity",
+			"reversed": "negativity, depression, sadness",
+			"first_element": "aether",
+			"second_element": "fire"
+		},
+		"Judgment": {
+			"id": 20,
+			"upright": "reflection, reckoning, awakening",
+			"reversed": "lack of self awareness, doubt, self loathing",
+			"first_element": "aether",
+			"second_element": "fire"
+		},
+		"The World": {
+			"id": 21,
+			"upright": "fulfillment, harmony, completion",
+			"reversed": "incompletion, no closure",
+			"first_element": "aether",
+			"second_element": "earth"
+		},
+		"Ace of Wands": {
+			"id": 22,
+			"upright": "creation, willpower, inspiration, desire",
+			"reversed": "lack of energy, lack of passion, boredom",
+			"first_element": "fire",
+			"second_element": null
+		},
+		"Two of Wands": {
+			"id": 23,
+			"upright": "planning, making decisions, leaving home",
+			"reversed": "fear of change, playing safe, bad planning",
+			"first_element": "fire",
+			"second_element": null
+		},
+		"Three of Wands": {
+			"id": 24,
+			"upright": "looking ahead, expansion, rapid growth",
+			"reversed": "obstacles, delays, frustration",
+			"first_element": "fire",
+			"second_element": null
+		},
+		"Four of Wands": {
+			"id": 25,
+			"upright": "community, home, celebration",
+			"reversed": "lack of support, transience, home conflicts",
+			"first_element": "fire",
+			"second_element": null
+		},
+		"Five of Wands": {
+			"id": 26,
+			"upright": "competition, rivalry, conflict",
+			"reversed": "avoiding conflict, respecting differences",
+			"first_element": "fire",
+			"second_element": null
+		},
+		"Six of Wands": {
+			"id": 27,
+			"upright": "victory, success, public reward",
+			"reversed": "excess pride, lack of recognition, punishment",
+			"first_element": "fire",
+			"second_element": null
+		},
+		"Seven of Wands": {
+			"id": 28,
+			"upright": "perseverance, defensive, maintaining control",
+			"reversed": "give up, destroyed confidence, overwhelmed",
+			"first_element": "fire",
+			"second_element": null
+		},
+		"Eight of Wands": {
+			"id": 29,
+			"upright": "rapid action, movement, quick decisions",
+			"reversed": "panic, waiting, slowdown",
+			"first_element": "fire",
+			"second_element": null
+		},
+		"Nine of Wands": {
+			"id": 30,
+			"upright": "resilience, grit, last stand",
+			"reversed": "exhaustion, fatigue, questioning motivations",
+			"first_element": "fire",
+			"second_element": null
+		},
+		"Ten of Wands": {
+			"id": 31,
+			"upright": "accomplishment, responsibility, burden",
+			"reversed": "inability to delegate, overstressed, burnt out",
+			"first_element": "fire",
+			"second_element": null
+		},
+		"Page of Wands": {
+			"id": 32,
+			"upright": "exploration, excitement, freedom",
+			"reversed": "lack of direction, procrastination, creating conflict",
+			"first_element": "fire",
+			"second_element": "earth"
+		},
+		"Knight of Wands": {
+			"id": 33,
+			"upright": "action, adventure, fearlessness",
+			"reversed": "anger, impulsiveness, recklessness",
+			"first_element": "fire",
+			"second_element": "fire"
+		},
+		"Queen of Wands": {
+			"id": 34,
+			"upright": "courage, determination, joy",
+			"reversed": "selfishness, jealousy, insecurities",
+			"first_element": "fire",
+			"second_element": "water"
+		},
+		"King of Wands": {
+			"id": 35,
+			"upright": "big picture, leader, overcoming challenges",
+			"reversed": "impulsive, overbearing, unachievable expectations",
+			"first_element": "fire",
+			"second_element": "air"
+		},
+		"Ace of Cups": {
+			"id": 36,
+			"upright": "new feelings, spirituality, intuition",
+			"reversed": "emotional loss, blocked creativity, emptiness",
+			"first_element": "water",
+			"second_element": null
+		},
+		"Two of Cups": {
+			"id": 37,
+			"upright": "unity, partnership, connection",
+			"reversed": "imbalance, broken communication, tension",
+			"first_element": "water",
+			"second_element": null
+		},
+		"Three of Cups": {
+			"id": 38,
+			"upright": "friendship, community, happiness",
+			"reversed": "overindulgence, gossip, isolation",
+			"first_element": "water",
+			"second_element": null
+		},
+		"Four of Cups": {
+			"id": 39,
+			"upright": "apathy, contemplation, disconnectedness",
+			"reversed": "sudden awareness, choosing happiness, acceptance",
+			"first_element": "water",
+			"second_element": null
+		},
+		"Five of Cups": {
+			"id": 40,
+			"upright": "loss, grief, self-pity",
+			"reversed": "acceptance, moving on, finding peace",
+			"first_element": "water",
+			"second_element": null
+		},
+		"Six of Cups": {
+			"id": 41,
+			"upright": "familiarity, happy memories, healing",
+			"reversed": "moving forward, leaving home, independence",
+			"first_element": "water",
+			"second_element": null
+		},
+		"Seven of Cups": {
+			"id": 42,
+			"upright": "searching for purpose, choices, daydreaming",
+			"reversed": "lack of purpose, diversion, confusion",
+			"first_element": "water",
+			"second_element": null
+		},
+		"Eight of Cups": {
+			"id": 43,
+			"upright": "walking away, disillusionment, leaving behind",
+			"reversed": "avoidance, fear of change, fear of loss",
+			"first_element": "water",
+			"second_element": null
+		},
+		"Nine of Cups": {
+			"id": 44,
+			"upright": "satisfaction, emotional stability, luxury",
+			"reversed": "lack of inner joy, smugness, dissatisfaction",
+			"first_element": "water",
+			"second_element": null
+		},
+		"Ten of Cups": {
+			"id": 45,
+			"upright": "inner happiness, fulfillment, dreams coming true",
+			"reversed": "shattered dreams, broken family, domestic disharmony",
+			"first_element": "water",
+			"second_element": null
+		},
+		"Page of Cups": {
+			"id": 46,
+			"upright": "happy surprise, dreamer, sensitivity",
+			"reversed": "emotional immaturity, insecurity, disappointment",
+			"first_element": "water",
+			"second_element": "earth"
+		},
+		"Knight of Cups": {
+			"id": 47,
+			"upright": "following the heart, idealist, romantic",
+			"reversed": "moodiness, disappointment",
+			"first_element": "water",
+			"second_element": "fire"
+		},
+		"Queen of Cups": {
+			"id": 48,
+			"upright": "compassion, calm, comfort",
+			"reversed": "martyrdom, insecurity, dependence",
+			"first_element": "water",
+			"second_element": "water"
+		},
+		"King of Cups": {
+			"id": 49,
+			"upright": "compassion, control, balance",
+			"reversed": "coldness, moodiness, bad advice",
+			"first_element": "water",
+			"second_element": "air"
+		},
+		"Ace of Swords": {
+			"id": 50,
+			"upright": "breakthrough, clarity, sharp mind",
+			"reversed": "confusion, brutality, chaos",
+			"first_element": "air",
+			"second_element": null
+		},
+		"Two of Swords": {
+			"id": 51,
+			"upright": "difficult choices, indecision, stalemate",
+			"reversed": "lesser of two evils, no right choice, confusion",
+			"first_element": "air",
+			"second_element": null
+		},
+		"Three of Swords": {
+			"id": 52,
+			"upright": "heartbreak, suffering, grief",
+			"reversed": "recovery, forgiveness, moving on",
+			"first_element": "air",
+			"second_element": null
+		},
+		"Four of Swords": {
+			"id": 53,
+			"upright": "rest, restoration, contemplation",
+			"reversed": "restlessness, burnout, stress",
+			"first_element": "air",
+			"second_element": null
+		},
+		"Five of Swords": {
+			"id": 54,
+			"upright": "unbridled ambition, win at all costs, sneakiness",
+			"reversed": "lingering resentment, desire to reconcile, forgiveness",
+			"first_element": "air",
+			"second_element": null
+		},
+		"Six of Swords": {
+			"id": 55,
+			"upright": "transition, leaving behind, moving on",
+			"reversed": "emotional baggage, unresolved issues, resisting transition",
+			"first_element": "air",
+			"second_element": null
+		},
+		"Seven of Swords": {
+			"id": 56,
+			"upright": "deception, trickery, tactics and strategy",
+			"reversed": "coming clean, rethinking approach, deception",
+			"first_element": "air",
+			"second_element": null
+		},
+		"Eight of Swords": {
+			"id": 57,
+			"upright": "imprisonment, entrapment, self-victimization",
+			"reversed": "self acceptance, new perspective, freedom",
+			"first_element": "air",
+			"second_element": null
+		},
+		"Nine of Swords": {
+			"id": 58,
+			"upright": "anxiety, hopelessness, trauma",
+			"reversed": "hope, reaching out, despair",
+			"first_element": "air",
+			"second_element": null
+		},
+		"Ten of Swords": {
+			"id": 59,
+			"upright": "failure, collapse, defeat",
+			"reversed": "can't get worse, only upwards, inevitable end",
+			"first_element": "air",
+			"second_element": null
+		},
+		"Page of Swords": {
+			"id": 60,
+			"upright": "curiosity, restlessness, mental energy",
+			"reversed": "deception, manipulation, all talk",
+			"first_element": "air",
+			"second_element": "earth"
+		},
+		"Knight of Swords": {
+			"id": 61,
+			"upright": "action, impulsiveness, defending beliefs",
+			"reversed": "no direction, disregard for consequences, unpredictability",
+			"first_element": "air",
+			"second_element": "fire"
+		},
+		"Queen of Swords": {
+			"id": 62,
+			"upright": "complexity, perceptiveness, clear mindedness",
+			"reversed": "cold hearted, cruel, bitterness",
+			"first_element": "air",
+			"second_element": "water"
+		},
+		"King of Swords": {
+			"id": 63,
+			"upright": "head over heart, discipline, truth",
+			"reversed": "manipulative, cruel, weakness",
+			"first_element": "air",
+			"second_element": "air"
+		},
+		"Ace of Pentacles": {
+			"id": 64,
+			"upright": "opportunity, prosperity, new venture",
+			"reversed": "lost opportunity, missed chance, bad investment",
+			"first_element": "earth",
+			"second_element": null
+		},
+		"Two of Pentacles": {
+			"id": 65,
+			"upright": "balancing decisions, priorities, adapting to change",
+			"reversed": "loss of balance, disorganized, overwhelmed",
+			"first_element": "earth",
+			"second_element": null
+		},
+		"Three of Pentacles": {
+			"id": 66,
+			"upright": "teamwork, collaboration, building",
+			"reversed": "lack of teamwork, disorganized, group conflict",
+			"first_element": "earth",
+			"second_element": null
+		},
+		"Four of Pentacles": {
+			"id": 67,
+			"upright": "conservation, frugality, security",
+			"reversed": "greediness, stinginess, possessiveness",
+			"first_element": "earth",
+			"second_element": null
+		},
+		"Five of Pentacles": {
+			"id": 68,
+			"upright": "need, poverty, insecurity",
+			"reversed": "recovery, charity, improvement",
+			"first_element": "earth",
+			"second_element": null
+		},
+		"Six of Pentacles": {
+			"id": 69,
+			"upright": "charity, generosity, sharing",
+			"reversed": "strings attached, stinginess, power and domination",
+			"first_element": "earth",
+			"second_element": null
+		},
+		"Seven of Pentacles": {
+			"id": 70,
+			"upright": "hard work, perseverance, diligence",
+			"reversed": "work without results, distractions, lack of rewards",
+			"first_element": "earth",
+			"second_element": null
+		},
+		"Eight of Pentacles": {
+			"id": 71,
+			"upright": "apprenticeship, passion, high standards",
+			"reversed": "lack of passion, uninspired, no motivation",
+			"first_element": "earth",
+			"second_element": null
+		},
+		"Nine of Pentacles": {
+			"id": 72,
+			"upright": "fruits of labor, rewards, luxury",
+			"reversed": "reckless spending, living beyond means, false success",
+			"first_element": "earth",
+			"second_element": null
+		},
+		"Ten of Pentacles": {
+			"id": 73,
+			"upright": "legacy, culmination, inheritance",
+			"reversed": "fleeting success, lack of stability, lack of resources",
+			"first_element": "earth",
+			"second_element": null
+		},
+		"Page of Pentacles": {
+			"id": 74,
+			"upright": "ambition, desire, diligence",
+			"reversed": "lack of commitment, greediness, laziness",
+			"first_element": "earth",
+			"second_element": "earth"
+		},
+		"Knight of Pentacles": {
+			"id": 75,
+			"upright": "efficiency, hard work, responsibility",
+			"reversed": "laziness, obsessiveness, work without reward",
+			"first_element": "earth",
+			"second_element": "fire"
+		},
+		"Queen of Pentacles": {
+			"id": 76,
+			"upright": "practicality, creature comforts, financial security",
+			"reversed": "self-centeredness, jealousy, smothering",
+			"first_element": "earth",
+			"second_element": "water"
+		},
+		"King of Pentacles": {
+			"id": 77,
+			"upright": "abundance, prosperity, security",
+			"reversed": "greed, indulgence, sensuality",
+			"first_element": "earth",
+			"second_element": "air"
+		}
+	}
+}

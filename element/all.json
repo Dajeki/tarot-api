@@ -1,0 +1,70 @@
+{
+	"fire": {
+		"minor": "Wands",
+		"gender": "masculine",
+		"colors": [
+			"red",
+			"orange"
+		],
+		"zodiac": [
+			"Aries",
+			"Leo",
+			"Sagittarius"
+		],
+		"animals": "reptiles, insects, lizards",
+		"expression": "I do",
+		"attribute": "power of vitality",
+		"meaning": "passion, creativity, lifeforce, growth, sexuality, humor, anger, spirituality, energy, motivation"
+	},
+	"earth": {
+		"minor": "Pentacles",
+		"gender": "feminine",
+		"colors": [
+			"green",
+			"brown"
+		],
+		"zodiac": [
+			"Taurus",
+			"Virgo",
+			"Capricorn"
+		],
+		"animals": "land mammals",
+		"expression": "I am",
+		"attribute": "material resources",
+		"meaning": "money, wealth, home, physical goods, health, practical matters, stability, groundedness, solidity"
+	},
+	"air": {
+		"minor": "Swords",
+		"gender": "masculine",
+		"colors": [
+			"white",
+			"yellow"
+		],
+		"zodiac": [
+			"Gemini",
+			"Libra",
+			"Aquarius"
+		],
+		"animals": "winged creatures",
+		"expression": "I think",
+		"attribute": "power of the mind",
+		"meaning": "thought, honesty, communication, clarity, logic, intelligence, discernment, reason, integrity"
+	},
+	"water": {
+		"minor": "Cups",
+		"gender": "feminine",
+		"colors": [
+			"blue",
+			"purple"
+		],
+		"zodiac": [
+			"Cancer",
+			"Scorpio",
+			"Pisces"
+		],
+		"animals": "water creatures",
+		"expression": "I feel",
+		"attribute": "matters of the heart",
+		"meaning": "emotion, love, compassion, feelings, intuition, fluidity, flow, relationships, family"
+	}
+}

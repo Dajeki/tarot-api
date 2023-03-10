@@ -1,0 +1,65 @@
+{
+	"cardinal": {
+		"card": "queen",
+		"attribute": "signs that begin seasons",
+		"meaning": "initiators, self-starters, assertive, decisive and sometimes aggressive",
+		"fire": {
+			"zodiac": "Aries",
+			"season": "spring"
+		},
+		"earth": {
+			"zodiac": "Capricorn",
+			"season": "winter"
+		},
+		"air": {
+			"zodiac": "Libra",
+			"season": "fall"
+		},
+		"water": {
+			"zodiac": "Cancer",
+			"season": "summer"
+		}
+	},
+	"fixed": {
+		"card": "knight",
+		"attribute": "signs in middle of seasons",
+		"meaning": "focused, stable, reliable, concentrated, determined and sometimes stubborn",
+		"fire": {
+			"zodiac": "Leo",
+			"season": "summer"
+		},
+		"earth": {
+			"zodiac": "Taurus",
+			"season": "spring"
+		},
+		"air": {
+			"zodiac": "Aquarius",
+			"season": "winter"
+		},
+		"water": {
+			"zodiac": "Scorpio",
+			"season": "fall"
+		}
+	},
+	"mutable": {
+		"card": "king",
+		"attribute": "signs that end seasons",
+		"meaning": "adaptable, flexible, communicative, and sometimes rebellious",
+		"fire": {
+			"zodiac": "Sagittarius",
+			"season": "fall"
+		},
+		"earth": {
+			"zodiac": "Virgo",
+			"season": "summer"
+		},
+		"air": {
+			"zodiac": "Gemini",
+			"season": "spring"
+		},
+		"water": {
+			"zodiac": "Pisces",
+			"season": "winter"
+		}
+	}
+}

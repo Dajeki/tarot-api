@@ -1,0 +1,37 @@
+{
+	"The Empress": {
+		"id": 3,
+		"upright": "motherhood, fertility, nature",
+		"reversed": "dependence, smothering, emptiness, nosiness",
+		"first_element": "aether",
+		"second_element": "earth"
+	},
+	"The Hierophant": {
+		"id": 5,
+		"upright": "tradition, conformity, morality, ethics",
+		"reversed": "rebellion, subversiveness, new approaches",
+		"first_element": "aether",
+		"second_element": "earth"
+	},
+	"The Hermit": {
+		"id": 9,
+		"upright": "contemplation, search for truth, inner guidance",
+		"reversed": "loneliness, isolation, lost your way",
+		"first_element": "aether",
+		"second_element": "earth"
+	},
+	"The Devil": {
+		"id": 15,
+		"upright": "addiction, materialism, playfulness",
+		"reversed": "freedom, release, restoring control",
+		"first_element": "aether",
+		"second_element": "earth"
+	},
+	"The World": {
+		"id": 21,
+		"upright": "fulfillment, harmony, completion",
+		"reversed": "incompletion, no closure",
+		"first_element": "aether",
+		"second_element": "earth"
+	}
+}

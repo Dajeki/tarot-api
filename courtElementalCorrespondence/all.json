@@ -1,0 +1,18 @@
+{
+	"page": {
+		"element": "earth",
+		"meaning": "inexperience, desires stability"
+	},
+	"knight": {
+		"element": "fire",
+		"meaning": "burning, overwhelming passion"
+	},
+	"queen": {
+		"element": "water",
+		"meaning": "flowing intuition and inner perfection"
+	},
+	"king": {
+		"element": "air",
+		"meaning": "strategic, intellectual communication"
+	}
+}

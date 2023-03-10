@@ -1,0 +1,21 @@
+{
+	"card": "knight",
+	"attribute": "signs in middle of seasons",
+	"meaning": "focused, stable, reliable, concentrated, determined and sometimes stubborn",
+	"fire": {
+		"zodiac": "Leo",
+		"season": "summer"
+	},
+	"earth": {
+		"zodiac": "Taurus",
+		"season": "spring"
+	},
+	"air": {
+		"zodiac": "Aquarius",
+		"season": "winter"
+	},
+	"water": {
+		"zodiac": "Scorpio",
+		"season": "fall"
+	}
+}

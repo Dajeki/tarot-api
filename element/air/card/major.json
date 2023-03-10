@@ -1,0 +1,37 @@
+{
+	"The Fool": {
+		"id": 0,
+		"upright": "innocence, new beginnings, free spirit",
+		"reversed": "recklessness, taken advantage of, inconsideration",
+		"first_element": "aether",
+		"second_element": "air"
+	},
+	"The Magician": {
+		"id": 1,
+		"upright": "willpower, desire, creation, manifestation",
+		"reversed": "trickery, illusions, out of touch",
+		"first_element": "aether",
+		"second_element": "air"
+	},
+	"The Lovers": {
+		"id": 6,
+		"upright": "partnerships, duality, union",
+		"reversed": "loss of balance, one-sidedness, disharmony",
+		"first_element": "aether",
+		"second_element": "air"
+	},
+	"Justice": {
+		"id": 11,
+		"upright": "cause and effect, clarity, truth",
+		"reversed": "dishonesty, unaccountability, unfairness",
+		"first_element": "aether",
+		"second_element": "air"
+	},
+	"The Star": {
+		"id": 17,
+		"upright": "hope, faith, rejuvenation",
+		"reversed": "faithlessness, discouragement, insecurity",
+		"first_element": "aether",
+		"second_element": "air"
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"card": "king",
+	"attribute": "signs that end seasons",
+	"meaning": "adaptable, flexible, communicative, and sometimes rebellious",
+	"fire": {
+		"zodiac": "Sagittarius",
+		"season": "fall"
+	},
+	"earth": {
+		"zodiac": "Virgo",
+		"season": "summer"
+	},
+	"air": {
+		"zodiac": "Gemini",
+		"season": "spring"
+	},
+	"water": {
+		"zodiac": "Pisces",
+		"season": "winter"
+	}
+}

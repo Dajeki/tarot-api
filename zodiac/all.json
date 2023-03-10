@@ -1,0 +1,86 @@
+{
+	"Cancer": {
+		"element": "water",
+		"nature": "security",
+		"astrologyModality": "cardinal",
+		"rulingBodyModern": "Moon",
+		"rulingBodyTraditional": null
+	},
+	"Scorpio": {
+		"element": "water",
+		"nature": "power",
+		"astrologyModality": "fixed",
+		"rulingBodyModern": "Pluto",
+		"rulingBodyTraditional": "Mars"
+	},
+	"Pisces": {
+		"element": "water",
+		"nature": "connection",
+		"astrologyModality": "mutable",
+		"rulingBodyModern": "Neptune",
+		"rulingBodyTraditional": "Jupiter"
+	},
+	"Gemini": {
+		"element": "air",
+		"nature": "curiosity",
+		"astrologyModality": "mutable",
+		"rulingBodyModern": "Mercury",
+		"rulingBodyTraditional": null
+	},
+	"Libra": {
+		"element": "air",
+		"nature": "harmony",
+		"astrologyModality": "cardinal",
+		"rulingBodyModern": "Venus",
+		"rulingBodyTraditional": null
+	},
+	"Aquarius": {
+		"element": "air",
+		"nature": "innovation",
+		"astrologyModality": "fixed",
+		"rulingBodyModern": "Uranus",
+		"rulingBodyTraditional": "Saturn"
+	},
+	"Aries": {
+		"element": "fire",
+		"nature": "creation",
+		"astrologyModality": "cardinal",
+		"rulingBodyModern": "Mars",
+		"rulingBodyTraditional": null
+	},
+	"Leo": {
+		"element": "fire",
+		"nature": "expression",
+		"astrologyModality": "fixed",
+		"rulingBodyModern": "Sun",
+		"rulingBodyTraditional": null
+	},
+	"Sagittarius": {
+		"element": "fire",
+		"nature": "wisdom",
+		"astrologyModality": "mutable",
+		"rulingBodyModern": "Jupiter",
+		"rulingBodyTraditional": null
+	},
+	"Taurus": {
+		"element": "earth",
+		"nature": "abundance",
+		"astrologyModality": "fixed",
+		"rulingBodyModern": "Venus",
+		"rulingBodyTraditional": null
+	},
+	"Virgo": {
+		"element": "earth",
+		"nature": "analysis",
+		"astrologyModality": "mutable",
+		"rulingBodyModern": "Mercury",
+		"rulingBodyTraditional": null
+	},
+	"Capricorn": {
+		"element": "earth",
+		"nature": "ambition",
+		"astrologyModality": "cardinal",
+		"rulingBodyModern": "Saturn",
+		"rulingBodyTraditional": null
+	}
+}
