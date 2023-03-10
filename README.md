@@ -10,9 +10,9 @@
 - [Retrieve a Single Card From Minor Arcana](#retrieve-a-single-card-from-minor-arcana)
   * [`GET /card/minor/{symbol}/{cardNumber}.json`  ](#get-cardminorsymbolcardnumberjson)
 - [Retrieve All Cards by Element ](#retrieve-all-cards-by-element)
-  * [`GET /card/element/{element}/all.json ](#get-cardelementelementalljson)
+  * [`GET /card/element/{element}/all.json`](#get-cardelementelementalljson)
 - [Retrieve Minor or Major Arcana Cards by Element ](#retrieve-minor-or-major-arcana-cards-by-element)
-  * [`GET /card/element/{element}/{arcana}.json ](#get-cardelementelementarcanajson)
+  * [`GET /card/element/{element}/{arcana}.json`](#get-cardelementelementarcanajson)
 - [Retrieve All Astrology Modality](#retrieve-all-astrology-modality)
   * [`GET /astrologyModality/all.json`  ](#get-astrologymodalityalljson)
 - [Retrieve a Single Astrology Modality](#retrieve-a-single-astrology-modality)
@@ -365,7 +365,7 @@ HTTP/1.1 200 OK Content-Type: application/json
 ## Retrieve All Cards by Element 
 
 <!-- TOC --><a name="get-cardelementelementalljson"></a>
-### `GET /card/element/{element}/all.json 
+### `GET /card/element/{element}/all.json`
 Retrieve all the cards for the minor arcana symbol.
 
 #### Resource URL
@@ -432,7 +432,7 @@ HTTP/1.1 200 OK Content-Type: application/json
 ## Retrieve Minor or Major Arcana Cards by Element 
 
 <!-- TOC --><a name="get-cardelementelementarcanajson"></a>
-### `GET /card/element/{element}/{arcana}.json 
+### `GET /card/element/{element}/{arcana}.json`
 Retrieve all the cards for the minor arcana symbol.
 
 #### Resource URL
