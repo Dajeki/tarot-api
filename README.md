@@ -644,27 +644,27 @@ HTTP/1.1 200 OK Content-Type: application/json
 
 {
 	"Cancer": {
-        "element": "water",
-        "nature": "security",
-        "astrologyModality": "cardinal",
-        "rulingBodyModern": "Moon",
-        "rulingBodyTraditional": null
-    },
-    "Scorpio": {
-        "element": "water",
-        "nature": "power",
-        "astrologyModality": "fixed",
-        "rulingBodyModern": "Pluto",
-        "rulingBodyTraditional": "Mars"
-    },
-    "Pisces": {
-        "element": "water",
-        "nature": "connection",
-        "astrologyModality": "mutable",
-        "rulingBodyModern": "Neptune",
-        "rulingBodyTraditional": "Jupiter"
-    },
-    // rest of zodiac signs
+		"element": "water",
+		"nature": "security",
+		"astrologyModality": "cardinal",
+		"rulingBodyModern": "Moon",
+		"rulingBodyTraditional": null
+	},
+	"Scorpio": {
+		"element": "water",
+		"nature": "power",
+		"astrologyModality": "fixed",
+		"rulingBodyModern": "Pluto",
+		"rulingBodyTraditional": "Mars"
+	},
+	"Pisces": {
+		"element": "water",
+		"nature": "connection",
+		"astrologyModality": "mutable",
+		"rulingBodyModern": "Neptune",
+		"rulingBodyTraditional": "Jupiter"
+	},
+	// rest of zodiac signs
 }
 ```
 
@@ -746,26 +746,26 @@ HTTP/1.1 200 OK Content-Type: application/json
 
 {
 	"fire": {
-        "minor": "Wands",
-        "gender": "masculine",
-        "colors": [
-            "red",
-            "orange"
-        ],
-        "zodiac": [
-            "Aries",
-            "Leo",
-            "Sagittarius"
-        ],
-        "animals": "reptiles, insects, lizards",
-        "expression": "I do",
-        "attribute": "power of vitality",
-        "meaning": "passion, creativity, lifeforce, growth, sexuality, humor, anger, spirituality, energy, motivation"
-    },
-    "earth": {
-	    // element information
-    },
-    // other elements
+		"minor": "Wands",
+		"gender": "masculine",
+		"colors": [
+			"red",
+			"orange"
+		],
+		"zodiac": [
+			"Aries",
+			"Leo",
+			"Sagittarius"
+		],
+		"animals": "reptiles, insects, lizards",
+		"expression": "I do",
+		"attribute": "power of vitality",
+		"meaning": "passion, creativity, lifeforce, growth, sexuality, humor, anger, spirituality, energy, motivation"
+	},
+	"earth": {
+		// element information
+	},
+	// other elements
 }
 ```
 
