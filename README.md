@@ -9,10 +9,22 @@
   * [`GET /card/major/{cardName}.json`  ](#get-cardmajorcardnamejson)
 - [Retrieve a Single Card From Minor Arcana](#retrieve-a-single-card-from-minor-arcana)
   * [`GET /card/minor/{symbol}/{cardNumber}.json`  ](#get-cardminorsymbolcardnumberjson)
+- [Retrieve All Cards by Element ](#retrieve-all-cards-by-element)
+  * [`GET /card/element/{element}/all.json ](#get-cardelementelementalljson)
+- [Retrieve Minor or Major Arcana Cards by Element ](#retrieve-minor-or-major-arcana-cards-by-element)
+  * [`GET /card/element/{element}/{arcana}.json ](#get-cardelementelementarcanajson)
 - [Retrieve All Astrology Modality](#retrieve-all-astrology-modality)
   * [`GET /astrologyModality/all.json`  ](#get-astrologymodalityalljson)
 - [Retrieve a Single Astrology Modality](#retrieve-a-single-astrology-modality)
   * [`GET /astrologyModality/{modality}.json`  ](#get-astrologymodalitymodalityjson)
+- [Retrieve All Zodiac Sign Information](#retrieve-all-zodiac-sign-information)
+  * [`GET /zodiac/all.json`  ](#get-zodiacalljson)
+- [Retrieve Zodiac Sign Information](#retrieve-zodiac-sign-information)
+  * [`GET /zodiac/{sign}.json`  ](#get-zodiacsignjson)
+- [Retrieve All Element Information](#retrieve-all-element-information)
+  * [`GET /element/all.json`  ](#get-elementalljson)
+- [Retrieve Element Information](#retrieve-element-information)
+  * [`GET /element/{element}.json`  ](#get-elementelementjson)
 <!-- TOC end -->
 <!-- TOC --><a name="retrieve-all-information"></a>
 ## Retrieve All Information 
@@ -131,11 +143,6 @@ HTTP/1.1 200 OK Content-Type: application/json
 | astrologyModality | object | Information that relates season timing, elements, and zodiac signs to meaning. | 
 | card | object | Tarot card information like id, meaning, and element. |  
 
-#### Error Responses
-| Status Code | Description | 
-| ----------- | ----------- | 
-| N/A | N/A |
-
 
 
 <!-- TOC --><a name="retrieve-all-cards"></a>
@@ -200,11 +207,6 @@ HTTP/1.1 200 OK Content-Type: application/json
 | {cardName}.first_element | string | Main elemental alignment of the card |  
 | {cardName}.second_element | string | Secondary elemental alignment of the card |
 
-#### Error Responses
-| Status Code | Description | 
-| ----------- | ----------- | 
-| N/A | N/A |
-
 
 
 <!-- TOC --><a name="retrieve-all-cards-in-a-minor-acana-symbol"></a>
@@ -220,7 +222,7 @@ https://dajeki.github.io/tarot-api/card/{symbol}/all.json
 #### Parameters
 | Name | Type | Required | Description | 
 | ---- | ---- | -------- | ----------- | 
-| symbol | string | yes | One of the 4 tarot symbols sword, pentacle, wand, cup | 
+| symbol | string | yes | One of the four tarot symbols sword, pentacle, wand, cup | 
 
 #### Example Request
 GET https://dajeki.github.io/tarot-api/card/pentacle/all.json
@@ -272,11 +274,6 @@ HTTP/1.1 200 OK Content-Type: application/json
 | {cardName}.first_element | string | Main elemental alignment of the card |  
 | {cardName}.second_element | string | Secondary elemental alignment of the card |
 
-#### Error Responses
-| Status Code | Description | 
-| ----------- | ----------- | 
-| N/A | N/A |
-
 
 
 <!-- TOC --><a name="retrieve-a-single-card-from-major-arcana"></a>
@@ -318,11 +315,6 @@ HTTP/1.1 200 OK Content-Type: application/json
 | reversed | string | Meaning of card in the downward position | 
 | first_element | string | Main elemental alignment of the card |  
 | second_element | string | Secondary elemental alignment of the card |
-
-#### Error Responses
-| Status Code | Description | 
-| ----------- | ----------- | 
-| N/A | N/A |
 
 
 
@@ -367,10 +359,141 @@ HTTP/1.1 200 OK Content-Type: application/json
 | first_element | string | Main elemental alignment of the card |  
 | second_element | string | Secondary elemental alignment of the card |
 
-#### Error Responses
-| Status Code | Description | 
-| ----------- | ----------- | 
-| N/A | N/A |
+
+
+<!-- TOC --><a name="retrieve-all-cards-by-element"></a>
+## Retrieve All Cards by Element 
+
+<!-- TOC --><a name="get-cardelementelementalljson"></a>
+### `GET /card/element/{element}/all.json 
+Retrieve all the cards for the minor arcana symbol.
+
+#### Resource URL
+https://dajeki.github.io/tarot-api/card/element/{element}/all.json
+
+#### Parameters
+| Name | Type | Required | Description | 
+| ---- | ---- | -------- | ----------- | 
+| element | string | yes | One of the four elements | 
+
+#### Example Request
+GET https://dajeki.github.io/tarot-api/card/element/fire/all.json
+
+#### Example Response
+```json
+HTTP/1.1 200 OK Content-Type: application/json
+
+{ 
+	"The Emperor": {
+		"id": 4,
+		"upright": "authority, structure, control, fatherhood",
+		"reversed": "tyranny, rigidity, coldness",
+		"first_element": "aether",
+		"second_element": "fire"
+	},
+	"Strength": {
+		"id": 8,
+		"upright": "inner strength, bravery, compassion, focus",
+		"reversed": "self doubt, weakness, insecurity",
+		"first_element": "aether",
+		"second_element": "fire"
+	},
+	"Knight of Pentacles": {
+		"id": 75,
+		"upright": "efficiency, hard work, responsibility",
+		"reversed": "laziness, obsessiveness, work without reward",
+		"first_element": "earth",
+		"second_element": "fire"
+	},
+	"Two of Wands": {
+		"id": 23,
+		"upright": "planning, making decisions, leaving home",
+		"reversed": "fear of change, playing safe, bad planning",
+		"first_element": "fire",
+		"second_element": null
+	},
+	// rest of cards with a fire element
+}
+```
+
+#### Response Properties
+| Name | Type | Description | 
+| ---- | ---- | ----------- | 
+| {cardName} | object | Information about the card. Will be accessed by the name of the card  | 
+| {cardName}.id | number | Number of the card in a tarot deck. | 
+| {cardName}.upright | string | Meaning of card in the upright position. | 
+| {cardName}.reversed | string | Meaning of card in the downward position | 
+| {cardName}.first_element | string | Main elemental alignment of the card |  
+| {cardName}.second_element | string | Secondary elemental alignment of the card |
+
+
+
+<!-- TOC --><a name="retrieve-minor-or-major-arcana-cards-by-element"></a>
+## Retrieve Minor or Major Arcana Cards by Element 
+
+<!-- TOC --><a name="get-cardelementelementarcanajson"></a>
+### `GET /card/element/{element}/{arcana}.json 
+Retrieve all the cards for the minor arcana symbol.
+
+#### Resource URL
+https://dajeki.github.io/tarot-api/card/element/{element}/{arcana}.json 
+
+#### Parameters
+| Name | Type | Required | Description | 
+| ---- | ---- | -------- | ----------- | 
+| element | string | yes | One of the four elements | 
+| arcana | string | no | Can be either `minor` or `major` to denote what arcana you would like to get cards from. |
+
+#### Example Request
+GET https://dajeki.github.io/tarot-api/card/element/fire/major.json
+
+#### Example Response
+```json
+HTTP/1.1 200 OK Content-Type: application/json
+
+{ 
+	"The Emperor": {
+		"id": 4,
+		"upright": "authority, structure, control, fatherhood",
+		"reversed": "tyranny, rigidity, coldness",
+		"first_element": "aether",
+		"second_element": "fire"
+	},
+	"Strength": {
+		"id": 8,
+		"upright": "inner strength, bravery, compassion, focus",
+		"reversed": "self doubt, weakness, insecurity",
+		"first_element": "aether",
+		"second_element": "fire"
+	},
+	"Wheel of Fortune": {
+		"id": 10,
+		"upright": "change, cycles, inevitable fate",
+		"reversed": "no control, clinging to control, bad luck",
+		"first_element": "aether",
+		"second_element": "fire"
+	},
+	"Temperance": {
+		"id": 14,
+		"upright": "middle path, patience, finding meaning",
+		"reversed": "extremes, excess, lack of balance",
+		"first_element": "aether",
+		"second_element": "fire"
+	
+	},
+	// rest of major arcana cards with a fire element
+}
+```
+
+#### Response Properties
+| Name | Type | Description | 
+| ---- | ---- | ----------- | 
+| {cardName} | object | Information about the card. Will be accessed by the name of the card  | 
+| {cardName}.id | number | Number of the card in a tarot deck. | 
+| {cardName}.upright | string | Meaning of card in the upright position. | 
+| {cardName}.reversed | string | Meaning of card in the downward position | 
+| {cardName}.first_element | string | Main elemental alignment of the card |  
+| {cardName}.second_element | string | Secondary elemental alignment of the card |
 
 
 
@@ -438,11 +561,6 @@ HTTP/1.1 200 OK Content-Type: application/json
 | {element}.zodiac | "string" | Zodiac sign for the particular element in the particular modality |
 | {element}.season | "string" | Season related to the particular element within the particular modality |
 
-#### Error Responses
-| Status Code | Description | 
-| ----------- | ----------- | 
-| N/A | N/A |
-
 
 
 <!-- TOC --><a name="retrieve-a-single-astrology-modality"></a>
@@ -500,10 +618,221 @@ HTTP/1.1 200 OK Content-Type: application/json
 | {element}.zodiac | "string" | Zodiac sign for the particular element in the particular modality |
 | {element}.season | "string" | Season related to the particular element within the particular modality |
 
-#### Error Responses
-| Status Code | Description | 
-| ----------- | ----------- | 
-| N/A | N/A |
 
+
+<!-- TOC --><a name="retrieve-all-zodiac-sign-information"></a>
+## Retrieve All Zodiac Sign Information
+
+<!-- TOC --><a name="get-zodiacalljson"></a>
+### `GET /zodiac/all.json`  
+Retrieve an astrology modal
+
+#### Resource URL
+https://dajeki.github.io/tarot-api/zodiac/all.json
+
+#### Parameters
+| Name | Type | Required | Description | 
+| ---- | ---- | -------- | ----------- | 
+| N/A | N/A | N/A | N/A | 
+
+#### Example Request
+GET https://dajeki.github.io/tarot-api/zodiac/all.json
+
+#### Example Response
+```json
+HTTP/1.1 200 OK Content-Type: application/json
+
+{
+	"Cancer": {
+        "element": "water",
+        "nature": "security",
+        "astrologyModality": "cardinal",
+        "rulingBodyModern": "Moon",
+        "rulingBodyTraditional": null
+    },
+    "Scorpio": {
+        "element": "water",
+        "nature": "power",
+        "astrologyModality": "fixed",
+        "rulingBodyModern": "Pluto",
+        "rulingBodyTraditional": "Mars"
+    },
+    "Pisces": {
+        "element": "water",
+        "nature": "connection",
+        "astrologyModality": "mutable",
+        "rulingBodyModern": "Neptune",
+        "rulingBodyTraditional": "Jupiter"
+    },
+    // rest of zodiac signs
+}
+```
+
+#### Response Properties
+| Name | Type | Description | 
+| ---- | ---- | ----------- |   
+| {zodiacSign} | object | Name of the zodiac sign |
+| {zodiacSign}.element | string | One of the four elements | 
+| {zodiacSign}.nature | string | nature of the zodiac sign | 
+| {zodiacSign}.astrologyModality | string | One of the three astrology modalities |  
+| {zodiacSign}.rulingBodyModern | string | Ruling celestial body according to modern idea |
+| {zodiacSign}.rulingBodyTraditional | "string" |  Ruling celestial body according to traditional idea |
+
+
+
+<!-- TOC --><a name="retrieve-zodiac-sign-information"></a>
+## Retrieve Zodiac Sign Information
+
+<!-- TOC --><a name="get-zodiacsignjson"></a>
+### `GET /zodiac/{sign}.json`  
+Retrieve an astrology modal
+
+#### Resource URL
+https://dajeki.github.io/tarot-api/zodiac/{sign}.json
+
+#### Parameters
+| Name | Type | Required | Description | 
+| ---- | ---- | -------- | ----------- | 
+| sign | string | yes | Sign in the zodiac | 
+
+#### Example Request
+GET https://dajeki.github.io/tarot-api/zodiac/aquarius.json
+
+#### Example Response
+```json
+HTTP/1.1 200 OK Content-Type: application/json
+
+{
+	"element": "air",
+	"nature": "innovation",
+	"astrologyModality": "fixed",
+	"rulingBodyModern": "Uranus",
+	"rulingBodyTraditional": "Saturn"
+}
+```
+
+#### Response Properties
+| Name | Type | Description | 
+| ---- | ---- | ----------- |   
+| element | string | One of the four elements | 
+| nature | string | nature of the zodiac sign | 
+| astrologyModality| string | One of the three astrology modalities |  
+| rulingBodyModern | string | Ruling celestial body according to modern idea |
+| rulingBodyTraditional | "string" |  Ruling celestial body according to traditional idea |
+
+
+
+<!-- TOC --><a name="retrieve-all-element-information"></a>
+## Retrieve All Element Information
+
+<!-- TOC --><a name="get-elementalljson"></a>
+### `GET /element/all.json`  
+Retrieve an astrology modal
+
+#### Resource URL
+https://dajeki.github.io/tarot-api/element/all.json
+
+#### Parameters
+| Name | Type | Required | Description | 
+| ---- | ---- | -------- | ----------- | 
+| N/A | N/A | N/A | N/A | 
+
+#### Example Request
+GET https://dajeki.github.io/tarot-api/element/all.json
+
+#### Example Response
+```json
+HTTP/1.1 200 OK Content-Type: application/json
+
+{
+	"fire": {
+        "minor": "Wands",
+        "gender": "masculine",
+        "colors": [
+            "red",
+            "orange"
+        ],
+        "zodiac": [
+            "Aries",
+            "Leo",
+            "Sagittarius"
+        ],
+        "animals": "reptiles, insects, lizards",
+        "expression": "I do",
+        "attribute": "power of vitality",
+        "meaning": "passion, creativity, lifeforce, growth, sexuality, humor, anger, spirituality, energy, motivation"
+    },
+    "earth": {
+	    // element information
+    },
+    // other elements
+}
+```
+
+#### Response Properties
+| Name | Type | Description | 
+| ---- | ---- | ----------- |   
+| {element} | string | One of the four elements | 
+| {element}.minor | string | Minor arcana symbol | 
+| {element}.colors | string[] | Array of colors |  
+| {element}.zodiac | string[] | Zodiac signs associated with the element |
+| {element}.animals | string |  Animals associated with the element |
+| {element}.expression | string |  Element personal expression |
+| {element}.attribute | string |  Elemental personal attribute |
+| {element}.meaning | string |  Elemental meaning |
+
+
+
+<!-- TOC --><a name="retrieve-element-information"></a>
+## Retrieve Element Information
+
+<!-- TOC --><a name="get-elementelementjson"></a>
+### `GET /element/{element}.json`  
+Retrieve an astrology modal
+
+#### Resource URL
+https://dajeki.github.io/tarot-api/element/{element}.json
+
+#### Parameters
+| Name | Type | Required | Description | 
+| ---- | ---- | -------- | ----------- | 
+| element | string | yes | One of the four elements | 
+
+#### Example Request
+GET https://dajeki.github.io/tarot-api/element/fire.json
+
+#### Example Response
+```json
+HTTP/1.1 200 OK Content-Type: application/json
+
+{
+	"minor": "Wands",
+	"gender": "masculine",
+	"colors": [
+		"red",
+		"orange"
+	],
+	"zodiac": [
+		"Aries",
+		"Leo",
+		"Sagittarius"
+	],
+	"animals": "reptiles, insects, lizards",
+	"expression": "I do",
+	"attribute": "power of vitality",
+	"meaning": "passion, creativity, lifeforce, growth, sexuality, humor, anger, spirituality, energy, motivation"
+}
+```
+
+#### Response Properties
+| Name | Type | Description | 
+| ---- | ---- | ----------- |
+| minor | string | Minor arcana symbol | 
+| colors | string[] | Array of colors |  
+| zodiac | string[] | Zodiac signs associated with the element |
+| animals | string |  Animals associated with the element |
+| expression | string |  Element personal expression |
+| attribute | string |  Elemental personal attribute |
+| meaning | string |  Elemental meaning |
 
 
