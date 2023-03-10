@@ -370,27 +370,27 @@ HTTP/1.1 200 OK Content-Type: application/json
 
 { 
 	"cardinal": {
-        "card": "queen",
-        "attribute": "signs that begin seasons",
-        "meaning": "initiators, self-starters, assertive, decisive and sometimes aggressive",
-        "fire": {
-            "zodiac": "Aries",
-            "season": "spring"
-        },
-        "earth": {
-            "zodiac": "Capricorn",
-            "season": "winter"
-        },
-        "air": {
-            "zodiac": "Libra",
-            "season": "fall"
-        },
-        "water": {
-            "zodiac": "Cancer",
-            "season": "summer"
-        }
-    },
-    "fixed": {
+		"card": "queen",
+		"attribute": "signs that begin seasons",
+		"meaning": "initiators, self-starters, assertive, decisive and sometimes aggressive",
+		"fire": {
+			"zodiac": "Aries",
+			"season": "spring"
+		},
+		"earth": {
+			"zodiac": "Capricorn",
+			"season": "winter"
+		},
+		"air": {
+			"zodiac": "Libra",
+			"season": "fall"
+		},
+		"water": {
+			"zodiac": "Cancer",
+			"season": "summer"
+		}
+	},
+	"fixed": {
 	    //fixed information
 	},
 	"mutable": {
